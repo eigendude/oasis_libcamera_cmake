@@ -36,3 +36,7 @@ ExternalProject_Add(libcamera_source
 
 add_library(libcamera SHARED IMPORTED)
 add_dependencies(libcamera libcamera_source)
+
+# Dummy install rule so colcon has an 'install' target to run.
+# The real libcamera bits are installed by the ExternalProject.
+install(CODE "message(STATUS \"libcamera: dummy install() to satisfy colcon\")")
