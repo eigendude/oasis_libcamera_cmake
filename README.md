@@ -1,4 +1,4 @@
-# libcamera CMake wrapper
+# OASIS libcamera CMake wrapper
 
 This implements a thin CMake wrapper around the [libcamera](https://libcamera.org) meson project. It only builds the main library without examples, tests or documentation.
 

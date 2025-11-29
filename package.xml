@@ -3,11 +3,11 @@
 <package format="3">
   <name>libcamera</name>
 
-  <version>0.4.0</version>
+  <version>1.0.0</version>
 
   <description>An open source camera stack and framework for Linux, Android, and ChromeOS</description>
 
-  <maintainer email="Rauch.Christian@gmx.de">Christian Rauch</maintainer>
+  <maintainer email="eigendebugger@gmail.com">Garrett Brown</maintainer>
 
   <license>LGPL-2.1</license>
 
